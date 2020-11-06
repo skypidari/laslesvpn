@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a85723c-509b-4836-a359-ea25b7c57a9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="5a85723c-509b-4836-a359-ea25b7c57a9e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
       <updated>1604670585352</updated>
       <workItem from="1604670586582" duration="438000" />
       <workItem from="1604671087650" duration="326000" />
-      <workItem from="1604673949398" duration="148000" />
+      <workItem from="1604673949398" duration="829000" />
     </task>
     <servers />
   </component>
@@ -45,9 +43,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="174" width="495" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604670765813">
-      <screen x="0" y="0" width="1366" height="740" />
+    <state x="604" y="282" width="495" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604674111521">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="430" y="174" width="495" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.740@0.0.1366.740" timestamp="1604670765813" />
+    <state x="604" y="282" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200/-1920.0.1920.1200@0.0.1920.1200" timestamp="1604674111521" />
   </component>
 </project>
