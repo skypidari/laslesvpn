@@ -129,7 +129,7 @@ textarea {
     font-size: 18px;
     line-height: 1.2;
     word-wrap: break-word;
-    font-family: 'Roboto', sans-serif;
+    font-family: Rubik, sans-serif;
 }
 
 /* Headings */
@@ -301,7 +301,7 @@ blockquote em, blockquote i, blockquote cite {
 
 blockquote cite {
     color: var(--current-color);
-    font: 0.75em Roboto, sans-serif;
+
     font-weight: 300;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -331,7 +331,6 @@ header {
 }
 
 .menu a {
-    font-family: Rubik sans-serif;
     font-size: 16px;
     padding: 10px 20px;
     font-weight: 400;
@@ -345,31 +344,27 @@ button.btn {
     border-radius: 50px;
     box-sizing: border-box;
     padding: calc(21px / 2) 41px;
-    font-family: Rubik sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 19px;
     font-size: 16px;
     text-transform: capitalize;
 }
 
 .sign a {
-    font-family: Rubik sans-serif;
     color: #0B132A;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     padding: 0 30px;
     text-transform: capitalize;
 }
 .first h1{
-    font-family: Rubik sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 50px;
     line-height: 70px;
     color: #0B132A
 }
 .first p{
-    font-family: Rubik sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
@@ -386,12 +381,18 @@ section{
     background: #F53838;
     color: #FFFFFF;
     padding: 16px 72px;
-    font-family: Rubik sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     line-height: 25px;
+    margin-top: 30px;
 }
 .fpic img{
     height: 383px;
     width: 612px;
+    float: right;
+}
+.start{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
 }
