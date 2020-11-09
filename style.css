@@ -453,3 +453,8 @@ section {
     color: #4F5665;
     line-height: 30px;
 }
+.second img{
+    height: 25px;
+    width: 25px;
+    float: left;
+}
