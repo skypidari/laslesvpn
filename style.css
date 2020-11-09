@@ -358,23 +358,27 @@ button.btn {
     padding: 0 30px;
     text-transform: capitalize;
 }
-.first h1{
+
+.first h1 {
     font-weight: 500;
     font-size: 50px;
     line-height: 70px;
     color: #0B132A
 }
-.first p{
+
+.first p {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
 }
-section{
+
+section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
+
 .rbtn button {
     border-radius: 10px;
     border: 1px solid #F53838;
@@ -386,12 +390,46 @@ section{
     line-height: 25px;
     margin-top: 30px;
 }
-.fpic img{
+
+.fpic img {
     height: 383px;
     width: 612px;
     float: right;
 }
-.start{
+
+.start {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.stat {
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statpic img {
+    height: 56px;
+    width: 55px;
+    float: left;
+}
+
+.nine {
+    margin: 0 35px;
+}
+.providepic{
+    height: 416px;
+    width: 510px;
+}
+.provide{
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
