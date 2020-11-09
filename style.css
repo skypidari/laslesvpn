@@ -374,7 +374,6 @@ button.btn {
 
 section {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
@@ -408,12 +407,17 @@ section {
     padding: 50px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 33.33%;
 }
-
+.stat.border{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
 .user {
     display: flex;
     justify-content: space-between;
+
 }
 
 .statpic img {
@@ -433,4 +437,19 @@ section {
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
+    background: #F6F6F6;
+}
+.second h1{
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.second{
+    margin-left: 85px;
+}
+.second p{
+    font-size: 16px;
+    color: #4F5665;
+    line-height: 30px;
 }
