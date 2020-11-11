@@ -377,7 +377,10 @@ section {
     align-items: center;
     padding: 50px;
 }
-
+section.plans{
+    align-items: unset;
+    justify-content: center;
+}
 .rbtn button {
     border-radius: 10px;
     border: 1px solid #F53838;
@@ -558,4 +561,26 @@ margin-left: 39px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+}
+.planred{
+    text-align: center;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0 26px;
+    width: 33.33%;
+}
+.planred h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 20px;
+}
+.map {
+    height: 539px;
+    width: 1060px;
+
 }
