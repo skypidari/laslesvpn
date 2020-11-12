@@ -497,22 +497,31 @@ section.plans{
     width: 146px;
     margin-top: 40px;
 }
+.options{
+    padding: 0;
+    display: inline-block;
+    margin: 0 auto;
+}
 
 .options li {
     list-style: none;
-    font-size: 14px;
+
     line-height: 30px;
     padding-top: 20px;
     color: #4F5665;
     margin-left: 5px;
 
 }
+.options li p{
+    font-size: 14px;
+    text-align: left;
+    display: inline-flex;
+}
 
 .options img {
     float: left;
     height: 25px;
     width: 25px;
-margin-left: 39px;
 }
 .plan{
     text-align: center;
@@ -551,6 +560,7 @@ margin-left: 39px;
     font-size: 16px;
     text-transform: capitalize;
     color: #F53838;
+
 }
 .btnselred{
     border-radius: 50px;
@@ -561,6 +571,7 @@ margin-left: 39px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    
 }
 .planred{
     text-align: center;
@@ -579,8 +590,7 @@ margin-left: 39px;
     color: #0B132A;
     margin-top: 20px;
 }
-.map {
-    height: 539px;
-    width: 1060px;
-
+section.map {
+    
+    margin: 0 98px;
 }
