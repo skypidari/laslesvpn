@@ -590,9 +590,13 @@ section.plans{
     color: #0B132A;
     margin-top: 20px;
 }
-section.map {
-    
-
+section.map img{
+    width: 100%;
+    max-width: 1000px;
+}
+section.nefl img{
+    width: 100%;
+    max-width: 1000px;
 }
 .recpic img{
     height: 51px;
@@ -609,18 +613,17 @@ section.map {
 }
 section.recommend{
     align-items: unset;
-    border: 2px solid #DDDDDD;
     box-sizing: border-box;
-    border-radius: 10px;flex-direction: column;
     justify-content: space-between;
-    width: 33.33%;
 
 }
 .price{
     margin-left: 54px;
 }
 .rec{
-    display: inline-flex;
+    display: flex;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;flex-direction: column;
 }
 section.recommend p{
     text-align: center;
