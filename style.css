@@ -145,7 +145,7 @@ h1 {
 
 h2 {
     font-size: 35px;
-    text-transform: uppercase;
+
 }
 
 h3 {
@@ -321,7 +321,6 @@ header {
 .logo img {
     width: 149px;
     height: 36px;
-    margin: 50px 0;
 }
 
 .menu {
@@ -377,10 +376,12 @@ section {
     align-items: center;
     padding: 50px;
 }
-section.plans{
+
+section.plans {
     align-items: unset;
     justify-content: center;
 }
+
 .rbtn button {
     border-radius: 10px;
     border: 1px solid #F53838;
@@ -497,7 +498,8 @@ section.plans{
     width: 146px;
     margin-top: 40px;
 }
-.options{
+
+.options {
     padding: 0;
     display: inline-block;
     margin: 0 auto;
@@ -512,7 +514,8 @@ section.plans{
     margin-left: 5px;
 
 }
-.options li p{
+
+.options li p {
     font-size: 14px;
     text-align: left;
     display: inline-flex;
@@ -523,7 +526,8 @@ section.plans{
     height: 25px;
     width: 25px;
 }
-.plan{
+
+.plan {
     text-align: center;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
@@ -532,7 +536,8 @@ section.plans{
     margin: 0 26px;
     width: 33.33%;
 }
-.plan h2{
+
+.plan h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -540,16 +545,19 @@ section.plans{
     color: #0B132A;
     margin-top: 20px;
 }
+
 .select {
     margin-bottom: 40px;
 }
-.select h2{
+
+.select h2 {
     color: #0B132A;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
     font-weight: 400;
 }
+
 .btnsel {
     border: 2px solid #F53838;
     border-radius: 50px;
@@ -562,7 +570,8 @@ section.plans{
     color: #F53838;
 
 }
-.btnselred{
+
+.btnselred {
     border-radius: 50px;
     border: 1px solid #F53838;
     background: #F53838;
@@ -571,9 +580,10 @@ section.plans{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    
+
 }
-.planred{
+
+.planred {
     text-align: center;
     border: 2px solid #F53838;
     box-sizing: border-box;
@@ -582,7 +592,8 @@ section.plans{
     margin: 0 26px;
     width: 33.33%;
 }
-.planred h2{
+
+.planred h2 {
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
@@ -590,47 +601,118 @@ section.plans{
     color: #0B132A;
     margin-top: 20px;
 }
-section.map img{
+
+section.Map {
+    justify-content: center;
+    display: flex;
+}
+section.Map img {
+    width: 100%;
+    max-width: 1000px;
+
+}
+section.nefl  {
+    justify-content: center;
+    display: flex;
+}
+section.nefl img {
     width: 100%;
     max-width: 1000px;
 }
-section.nefl img{
-    width: 100%;
-    max-width: 1000px;
-}
-.recpic img{
+.recpic img {
     height: 51px;
     width: 182px;
-    
 }
-.price img{
+
+.price img {
     height: 17px;
     width: 16px;
-    float: right;
-}
-.price p{
 
 }
-section.recommend{
+
+.price p {
+    margin: 0 13px 0 0;
+}
+
+section.recommend {
     align-items: unset;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
 
 }
-.price{
-    margin-left: 54px;
+
+.price {
+    display: flex;
 }
-.rec{
+
+.rec {
+    display: flex;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px;
+    width: 33.33%;
+    margin: 0 26px;
+}
+
+section.recommend p {
+    display: flex;
+    color: #0B132A;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.recpic {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 18px;
+}
+.recg{
     display: flex;
     border: 2px solid #DDDDDD;
-    border-radius: 10px;flex-direction: column;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px;
+    width: 33.33%;
+    margin: 0 26px;
 }
-section.recommend p{
-    text-align: center;
+.arrow{
     display: flex;
-
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
-.par p{
-
-
+.left{
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    padding: 16px 18px;
+}
+.right{
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    padding: 16px 18px;
+    background:#F53838;
+}
+.text h2{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+}
+.text p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
