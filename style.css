@@ -716,3 +716,22 @@ footer{
     align-items: center;
     padding: 50px;
 }
+.fot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.mess img{
+    width: 70px;
+    height: 70px;
+}
+.product li{
+    list-style: none;
+}
+.engage li{
+    list-style: none;
+}
+.money li{
+    list-style: none;
+}
