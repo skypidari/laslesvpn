@@ -769,6 +769,9 @@ footer {
     line-height: 30px;
     color: #4F5665;
 }
+.product {
+    margin-left: 55px;
+}
 .engage h2{
     padding-bottom: 18px;
 }
@@ -821,6 +824,6 @@ footer.logo {
 .avatar img{
     margin-right: 10px;
 }
-footer.menu{
-
+footer .menu{
+display: flex;
 }
