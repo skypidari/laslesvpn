@@ -131,6 +131,9 @@ textarea {
     word-wrap: break-word;
     font-family: Rubik, sans-serif;
 }
+button{
+    background: unset;
+}
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -445,7 +448,7 @@ section.plans {
     box-sizing: border-box;
     display: flex;
     align-items: flex-start;
-    background: #F6F6F6;
+   width: 100%;
 }
 
 .second h1 {
@@ -486,6 +489,9 @@ section.plans {
     margin: 40px 260px;
     text-align: center;
     color: #4F5665;
+}
+.choose{
+    width: 100%;
 }
 
 .plan img {
@@ -649,6 +655,7 @@ section.recommend {
 
 .price {
     display: flex;
+    align-items: center;
 }
 
 .rec {
@@ -694,14 +701,17 @@ section.recommend p {
 .left {
     border: 2px solid #F53838;
     border-radius: 50%;
-    padding: 16px 18px;
+    width: 60px;
+    height: 60px;
+    background: url("images/arrow-left.png") no-repeat center;
 }
 
 .right {
     border: 2px solid #F53838;
     border-radius: 50%;
-    padding: 16px 18px;
-    background: #F53838;
+    width: 60px;
+    height: 60px;
+    background: #F53838 url("images/arrow-right.png") no-repeat center;
 }
 
 .text h2 {
