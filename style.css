@@ -131,13 +131,13 @@ textarea {
     word-wrap: break-word;
     font-family: Rubik, sans-serif;
 }
-button{
+
+button {
     background: unset;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    padding-bottom: 18px;
     font-weight: normal;
     transition: all 300ms;
 }
@@ -447,8 +447,9 @@ section.plans {
 .provide {
     box-sizing: border-box;
     display: flex;
-    align-items: flex-start;
-   width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .second h1 {
@@ -490,7 +491,8 @@ section.plans {
     text-align: center;
     color: #4F5665;
 }
-.choose{
+
+.choose {
     width: 100%;
 }
 
@@ -631,15 +633,16 @@ section.nefl img {
     max-width: 1000px;
 }
 
-.recpic img {
-    height: 51px;
-    width: 182px;
+.recpic h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
 }
-
-.price img {
-    height: 17px;
-    width: 16px;
-
+.recpic p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
 }
 
 .price p {
@@ -680,7 +683,9 @@ section.recommend p {
     justify-content: space-between;
     margin: 0 0 18px;
 }
+.recpic img{
 
+}
 .recg {
     display: flex;
     border: 2px solid #DDDDDD;
@@ -759,12 +764,18 @@ footer {
     line-height: 30px;
     color: #4F5665;
 }
+.product h2{
+    padding-bottom: 18px;
+}
 
 .engage li {
     list-style: none;
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+}
+.engage h2{
+    padding-bottom: 18px;
 }
 
 .money li {
@@ -773,18 +784,27 @@ footer {
     line-height: 30px;
     color: #4F5665;
 }
+.money h2{
+    padding-bottom: 18px;
+}
 
 footer.logo {
     width: 33.33%;
     margin-right: 243px;
 }
-.logo p{
+
+.logo p {
     color: #4F5665;
     font-size: 16px;
     line-height: 30px;
     margin-top: 19px;
     width: 50%;
 }
-.year p{
+
+.year p {
     color: #AFB5C0;
+}
+.comm {
+    padding: 0px;
+
 }
