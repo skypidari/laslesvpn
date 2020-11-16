@@ -784,7 +784,7 @@ footer {
 }
 
 footer.logo {
-    width: 33.33%;
+
     margin-right: 243px;
 }
 
@@ -793,7 +793,8 @@ footer.logo {
     font-size: 16px;
     line-height: 30px;
     margin-top: 19px;
-    width: 50%;
+    max-width: 300px;
+
 }
 
 .year p {
@@ -819,4 +820,7 @@ footer.logo {
 }
 .avatar img{
     margin-right: 10px;
+}
+footer.menu{
+
 }
