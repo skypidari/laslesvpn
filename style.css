@@ -634,15 +634,10 @@ section.nefl img {
 }
 
 .recpic h2{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #0B132A;
+
 }
 .recpic p{
-    font-size: 14px;
-    line-height: 30px;
-    color: #4F5665;
+
 }
 
 .price p {
@@ -806,5 +801,22 @@ footer.logo {
 }
 .comm {
     padding: 0px;
-
+}
+.comm h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.comm p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    margin-right: 10px;
 }
