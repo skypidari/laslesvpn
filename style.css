@@ -416,8 +416,8 @@ section.plans {
 }
 
 .stat.border {
-    border-right: 2px solid red;
-    border-left: 2px solid red;
+    border-right: 2px solid #EEEFF2;
+    border-left: 2px solid #EEEFF2;
 }
 
 .user {
@@ -535,6 +535,8 @@ section.plans {
     justify-content: space-between;
     margin: 0 26px;
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
 }
 
 .plan h2 {
@@ -568,7 +570,6 @@ section.plans {
     font-size: 16px;
     text-transform: capitalize;
     color: #F53838;
-
 }
 
 .btnselred {
@@ -580,7 +581,6 @@ section.plans {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
 }
 
 .planred {
@@ -591,6 +591,8 @@ section.plans {
     justify-content: space-between;
     margin: 0 26px;
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
 }
 
 .planred h2 {
@@ -606,19 +608,23 @@ section.Map {
     justify-content: center;
     display: flex;
 }
+
 section.Map img {
     width: 100%;
     max-width: 1000px;
 
 }
-section.nefl  {
+
+section.nefl {
     justify-content: center;
     display: flex;
 }
+
 section.nefl img {
     width: 100%;
     max-width: 1000px;
 }
+
 .recpic img {
     height: 51px;
     width: 182px;
@@ -667,7 +673,8 @@ section.recommend p {
     justify-content: space-between;
     margin: 0 0 18px;
 }
-.recg{
+
+.recg {
     display: flex;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
@@ -676,62 +683,98 @@ section.recommend p {
     width: 33.33%;
     margin: 0 26px;
 }
-.arrow{
+
+.arrow {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
-.left{
+
+.left {
     border: 2px solid #F53838;
     border-radius: 50%;
     padding: 16px 18px;
 }
-.right{
+
+.right {
     border: 2px solid #F53838;
     border-radius: 50%;
     padding: 16px 18px;
-    background:#F53838;
+    background: #F53838;
 }
-.text h2{
+
+.text h2 {
     font-weight: 500;
     font-size: 35px;
     line-height: 45px;
     color: #0B132A;
 }
-.text p{
+
+.text p {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
 }
-.end{
+
+.end {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
-.fot{
+
+.fot {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
 }
-.mess img{
+
+.mess img {
     width: 70px;
     height: 70px;
 }
-.product li{
+
+.product li {
     list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
 }
-.engage li{
+
+.engage li {
     list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
 }
-.money li{
+
+.money li {
     list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+footer.logo {
+    width: 33.33%;
+    margin-right: 243px;
+}
+.logo p{
+    color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 19px;
+    width: 50%;
+}
+.year p{
+    color: #AFB5C0;
 }
