@@ -416,6 +416,8 @@ section.plans {
     display: flex;
     justify-content: center;
     width: 33.33%;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .stat.border {
@@ -426,7 +428,8 @@ section.plans {
 .user {
     display: flex;
     justify-content: space-between;
-
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .statpic img {
@@ -437,6 +440,7 @@ section.plans {
 
 .nine {
     margin: 0 35px;
+
 }
 
 .providepic {
@@ -490,6 +494,8 @@ section.plans {
     margin: 40px 260px;
     text-align: center;
     color: #4F5665;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .choose {
@@ -565,7 +571,10 @@ section.plans {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
+}
+.select p{
+
 }
 
 .btnsel {
