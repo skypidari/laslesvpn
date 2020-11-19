@@ -571,7 +571,8 @@ section.plans {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
+
 }
 .select p{
 
@@ -613,7 +614,7 @@ section.plans {
 }
 
 .planred h2 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -629,7 +630,6 @@ section.Map {
 section.Map img {
     width: 100%;
     max-width: 1000px;
-
 }
 
 section.nefl {
@@ -640,13 +640,6 @@ section.nefl {
 section.nefl img {
     width: 100%;
     max-width: 1000px;
-}
-
-.recpic h2{
-
-}
-.recpic p{
-
 }
 
 .price p {
@@ -842,4 +835,9 @@ footer.logo {
 }
 footer .menu{
 display: flex;
+}
+section.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
