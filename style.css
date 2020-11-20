@@ -352,6 +352,14 @@ button.btn {
     text-transform: capitalize;
 }
 
+.plan.red button.btn{
+    color: #fff;
+    background: #F53855;
+}
+.plan button.btn{
+    padding: calc(21px / 2) 60px;
+    font-weight: normal;
+}
 .sign a {
     color: #0B132A;
     font-weight: bold;
@@ -552,7 +560,9 @@ section.plans {
     display: flex;
     flex-direction: column;
 }
-
+.plan.red{
+    border: 2px solid red;
+}
 .plan h2 {
     font-weight: 500;
     font-size: 18px;
