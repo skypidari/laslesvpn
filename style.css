@@ -352,14 +352,17 @@ button.btn {
     text-transform: capitalize;
 }
 
-.plan.red button.btn{
+.plan.red button.btn {
     color: #fff;
     background: #F53855;
 }
-.plan button.btn{
+
+.plan button.btn {
     padding: calc(21px / 2) 60px;
     font-weight: normal;
+    margin-top: 10px;
 }
+
 .sign a {
     color: #0B132A;
     font-weight: bold;
@@ -542,21 +545,27 @@ section.plans {
     height: 167px;
     width: 146px;
     margin-top: 40px;
+
+}
+
+.box {
+    text-align: center;
 }
 
 .options {
     padding: 0;
     display: inline-block;
-    margin: 0 auto;
+    margin-left: 50px;
 }
+
 
 .options li {
     list-style: none;
-
+    margin-left: 50px;
     line-height: 30px;
     padding-top: 20px;
     color: #4F5665;
-    margin-left: 5px;
+
 
 }
 
@@ -573,7 +582,6 @@ section.plans {
 }
 
 .plan {
-    text-align: center;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
@@ -583,9 +591,11 @@ section.plans {
     display: flex;
     flex-direction: column;
 }
-.plan.red{
-    border: 2px solid red;
+
+.plan.red {
+    border: 2px solid #F53838;
 }
+
 .plan h2 {
     font-weight: 500;
     font-size: 18px;
@@ -597,6 +607,7 @@ section.plans {
 
 .select {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .select h2 {
@@ -607,7 +618,8 @@ section.plans {
     font-weight: 300;
 
 }
-.select p{
+
+.select p {
 
 }
 
@@ -713,9 +725,11 @@ section.recommend p {
     justify-content: space-between;
     margin: 0 0 18px;
 }
-.recpic img{
+
+.recpic img {
 
 }
+
 .recg {
     display: flex;
     border: 2px solid #DDDDDD;
@@ -767,6 +781,9 @@ section.recommend p {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    box-shadow: 0 19px 63px 2px rgba(0, 0, 0, .2);
+    padding: 13px 123px;
+    margin-bottom: -70px;
 }
 
 footer {
@@ -774,7 +791,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    padding-top: 300px;
+    padding-top: 140px;
 }
 
 .fot {
@@ -792,10 +809,11 @@ footer {
 .product li {
     list-style: none;
     font-size: 16px;
-   margin-bottom: 25px;
+    margin-bottom: 25px;
     color: #4F5665;
 }
-.product h2{
+
+.product h2 {
     padding-bottom: 18px;
     font-size: 18px;
     font-weight: 500;
@@ -809,13 +827,16 @@ footer {
     line-height: 30px;
     color: #4F5665;
 }
+
 .product {
     margin-left: 125px;
 }
-.product ul{
+
+.product ul {
     padding-left: 0;
 }
-.engage h2{
+
+.engage h2 {
     padding-bottom: 18px;
 }
 
@@ -825,7 +846,8 @@ footer {
     line-height: 30px;
     color: #4F5665;
 }
-.money h2{
+
+.money h2 {
     padding-bottom: 18px;
 }
 
@@ -846,34 +868,47 @@ footer.logo {
 .year p {
     color: #AFB5C0;
 }
+
 .comm {
     padding: 0px;
 }
-.comm h2{
+
+.comm h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     color: #0B132A;
 }
-.comm p{
+
+.comm p {
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
 }
-.avatar{
+
+.avatar {
     display: flex;
     align-items: center;
 }
-.avatar img{
+
+.avatar img {
     margin-right: 10px;
 }
-footer .menu{
-display: flex;
+
+footer .menu {
+    display: flex;
 }
-section.last{
+
+section.last {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 6px 19px 12px rgba(0, 0, 0, .2);
     padding: 50px 100px;
+}
+
+.stbor {
+    box-shadow: 0 19px 63px 2px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
