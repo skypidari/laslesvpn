@@ -395,14 +395,37 @@ section.plans {
 
 .rbtn button {
     border-radius: 10px;
-    border: 1px solid #F53838;
+    border: none;
     background: #F53838;
     color: #FFFFFF;
-    padding: 16px 72px;
+    padding: 20px 102px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 25px;
     margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.rbtn button::after{
+    content: '';
+    display: flex;
+    height: 100%;
+    width: 80%;
+    background: #F53838;
+    position: absolute;
+    bottom: -50%;
+    left: 10%;
+    filter: blur(37px);
+    z-index: -1;
+    opacity: 0.45;
+    transition: all 400ms;
+}
+.rbtn button:hover::after{
+    filter: blur(17px);
+    opacity: 0.65;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .fpic img {
