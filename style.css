@@ -355,12 +355,23 @@ button.btn {
 .plan.red button.btn {
     color: #fff;
     background: #F53855;
+    box-shadow: 0.4em 0.4em 39px rgb(220 66 26);
 }
-
+.plan.red button.btn:hover{
+    background: white;
+    color: #F53855;
+    box-shadow: none;
+    transition: all 600ms;
+}
 .plan button.btn {
     padding: calc(21px / 2) 60px;
     font-weight: normal;
     margin-top: 10px;
+}
+.plan button.btn:hover{
+    background: #F53855;
+    color: white;
+    transition: all 600ms;
 }
 
 .sign a {
@@ -419,7 +430,7 @@ section.plans {
     bottom: -50%;
     left: 10%;
     filter: blur(37px);
-    z-index: -1;
+    /*z-index: -1;*/
     opacity: 0.45;
     transition: all 400ms;
 }
@@ -555,7 +566,6 @@ section.plans {
 .options {
     padding: 0;
     display: inline-block;
-    margin-left: 50px;
 }
 
 
@@ -565,8 +575,6 @@ section.plans {
     line-height: 30px;
     padding-top: 20px;
     color: #4F5665;
-
-
 }
 
 .options li p {
@@ -619,9 +627,6 @@ section.plans {
 
 }
 
-.select p {
-
-}
 
 .btnsel {
     border: 2px solid #F53838;
@@ -782,8 +787,9 @@ section.recommend p {
     width: 100%;
     align-items: center;
     box-shadow: 0 19px 63px 2px rgba(0, 0, 0, .2);
-    padding: 13px 123px;
-    margin-bottom: -70px;
+    padding: 23px 123px;
+    margin-bottom: -114px;
+    background: white;
 }
 
 footer {
@@ -791,7 +797,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    padding-top: 140px;
+    padding-top: 127px;
+    background: #DDDDDD;
 }
 
 .fot {
@@ -913,4 +920,32 @@ section.last {
     width: 100%;
     padding: 30px;
     border-radius: 10px;
+}
+.wer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.nm .ex{
+    background-color: #F53855;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #0B132A;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+@keyframes glowing {
+    0% {background-color: #F53855; box-shadow: 0 0 3px #F53855; }
+    50% {background-color: #F53838; box-shadow: 0 0 10px #F53838; }
+    100% {background-color: brown; box-shadow: 0 0 3px brown; }
+}
+.nm .ex{
+    animation: glowing 1300ms infinite;
 }
