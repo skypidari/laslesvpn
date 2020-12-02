@@ -603,6 +603,9 @@ section.plans {
 .plan.red {
     border: 2px solid #F53838;
 }
+.plan.red:hover{
+    border: 2px solid #AFB5C0;
+}
 
 .plan h2 {
     font-weight: 500;
@@ -780,7 +783,33 @@ section.recommend p {
     line-height: 30px;
     color: #4F5665;
 }
-
+*{
+    box-sizing: border-box;
+}
+.show img{
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+.pinter{
+    /*display: none;*/
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    animation-name: fade;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 .end {
     display: flex;
     justify-content: space-between;
