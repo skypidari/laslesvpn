@@ -762,6 +762,10 @@ section.recommend p {
     height: 60px;
     background: url("images/arrow-left.png") no-repeat center;
 }
+.left:hover {
+    border: 2px solid #F53838;
+    background-color: #F53855;
+}
 
 .right {
     border: 2px solid #F53838;
@@ -769,6 +773,10 @@ section.recommend p {
     width: 60px;
     height: 60px;
     background: #F53838 url("images/arrow-right.png") no-repeat center;
+}
+.right:hover{
+    border: white;
+    background:#DDDDDD  url("images/arrow-right.png") no-repeat center;
 }
 
 .text h2 {
@@ -977,4 +985,23 @@ section.last {
 }
 .nm .ex{
     animation: glowing 1300ms infinite;
+}
+.grad{
+    border: 1px solid #669966;
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: #6cc026 0 2px 3px;
+    -webkit-box-shadow: #6cc026 0 2px 3px;
+    -moz-box-shadow: #6cc026 0 2px 3px;
+    background: #24c09b;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#24c09b), to(#0B132A));
+    background: -webkit-linear-gradient(#24c09b, #0B132A);
+    background: -moz-linear-gradient(#24c09b, #0B132A);
+    background: -ms-linear-gradient(#24c09b, #0B132A);
+    background: -o-linear-gradient(#24c09b, #0B132A);
+    background: linear-gradient(#24c09b, #0B132A);
 }
